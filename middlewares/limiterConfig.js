@@ -38,6 +38,6 @@ export const limiter = rateLimit({
       }`;
     }
 
-    return `Too many attempts. Try again in ${timeMessage}.`;
+    return `Too many attempts. Please try again in ${timeMessage}.`;
   },
 });
